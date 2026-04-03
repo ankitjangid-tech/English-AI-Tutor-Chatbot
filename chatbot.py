@@ -22,7 +22,7 @@ def get_streaming_response(messages, model="gpt-4o-mini"):
     stream = client.chat.completions.create(
         model=model,
         messages=messages,
-        max_tokens=100,
+        max_tokens=150,
         stream=True
     )
 
