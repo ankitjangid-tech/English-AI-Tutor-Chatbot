@@ -5,14 +5,17 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
+api_key= os.getenv("OPENAI_API_KEY")
+
+if api_key:
+    print(api_key[:8]) 
+else: 
+    print("api not found")
 
 # Initialize client
-client = OpenAI(
-    base_url="http://localhost:11434/v1" ,
-    api_key="ollama"
-)
+client=OpenAI(api_key=api_key)
 
-def get_streaming_response(messages, model="phi3.5"):
+def get_streaming_response(messages, model="gpt-4o-mini"):
     """
     Generator function to stream response from LLM
     """
