@@ -49,14 +49,18 @@ Try it live here: [English Tutor AI](https://ankit-english-ai-tutor-chatbot.stre
 
 ## 📂 Installation (Local)
 
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/ai-interviewer-pro.git
+### 1️⃣ Clone the Repository
+```bash
+git clone [https://github.com/your-username/ai-interviewer-pro.git](https://github.com/your-username/ai-interviewer-pro.git)
 cd ai-interviewer-pro
+
 2️⃣ Install Dependencies
 pip install -r requirements.txt
+
 3️⃣ Setup Environment Variables
 Create a file named .env in the project root.
 Add your OpenAI API key:
 OPENAI_API_KEY=your_api_key_here
+
 4️⃣ Run the Application
 streamlit run app.py
