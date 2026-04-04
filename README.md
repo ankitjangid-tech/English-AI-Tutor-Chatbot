@@ -1,7 +1,7 @@
 # 📚 English Tutor AI Chatbot
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-green)](https://ankit-english-ai-tutor-chatbot.streamlit.app/)  
-[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.13.2-blue)](https://www.python.org/)
 
 ✨ Learn English with your **personal AI tutor**! Practice grammar, vocabulary, and take interactive quizzes—all in one chatbot interface.
 
@@ -50,17 +50,32 @@ Try it live here: [English Tutor AI](https://ankit-english-ai-tutor-chatbot.stre
 ## 📂 Installation (Local)
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone [https://github.com/your-username/ai-interviewer-pro.git](https://github.com/your-username/ai-interviewer-pro.git)
 cd ai-interviewer-pro
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Setup Environment Variables
+### 3️⃣ Setup Environment Variables
 Create a file named .env in the project root.
 Add your OpenAI API key:
 OPENAI_API_KEY=your_api_key_here
 
-4️⃣ Run the Application
+### 4️⃣ Run the Application
 streamlit run app.py
+
+---
+
+## 👨‍💻 Author
+
+**Ankit Jangid**  
+Data Analyst | Power BI Developer  
+
+📌 GitHub: https://github.com/ankitjangid-tech  
+📌 LinkedIn: https://linkedin.com/in/ankit-jangid-tech  
+
+---
+
+## ⭐ If you found this project useful, consider giving it a star!
+
